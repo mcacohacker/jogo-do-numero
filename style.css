@@ -40,4 +40,12 @@ h1{
 }
 
 .formulario input[type="submit"]{
-    width:.
+    padding: 10px 20px;
+    background-color: #28a754;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
