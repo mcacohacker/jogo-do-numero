@@ -48,7 +48,6 @@ function finalzarJogo() {
   doccument.body.appendChild(botaoReiniciar);
   botaoReiniciar.textContent = 'Reiniciar Jogo'
   botaoReiniciar.classList.add('botaoReiniciar');
-  document.body.appendChild(botaoReiniciar);
   botaoReiniciar.addEventListener('click', reiniciar jogo);
 }
 
