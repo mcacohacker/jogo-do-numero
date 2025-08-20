@@ -1,46 +1,49 @@
-html {
-    font-family: 'Arial', san-serif;
+* Estilos gerais para a página */
+body {
+    font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #ff7eff, #feb47b);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0; 
 }
 
-body{
-    width: 50%;
+.container {
+    width: 90%;
     max-width: 800px;
-    min-width: 470px;
+    min-width: 300px;
     margin: 0 auto;
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4-x 8px rgba(0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 2.5em;
     color: #333;
-    margin-bottom: center;
+    margin-bottom: 20px;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
 .formulario input[type="number"] {
     width: 200px;
     padding: 10px;
-    margin-botttom: 10px;
     border-radius: 5px;
     border: 1px solid #cccccc;
-    font-size: 1.;
+    font-size: 1em; 
+    text-align: center; 
 }
 
-.formulario input[type="submit"]{
+.formulario input[type="submit"] {
     padding: 10px 20px;
     background-color: #28a754;
     color: #ffffff;
@@ -52,29 +55,30 @@ h1{
 }
 
 .formulario input[type="submit"]:hover {
-    background-color: #218838
+    background-color: #218838;
 }
 
 .paragrafosResultado p {
-    font-size 1.2em;
-    text-align:center;
-    margin:10px 0;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .ultimoResultado {
     color: white;
-    padding: 3px;
+    padding: 7px;
     border-radius: 5px;
     font-size: 1.3em;
     text-align: center;
+    min-width: 200px;
 }
 
-.utlimoResultado.errado {
-    background-color: #dc3545
+.ultimoResultado.errado {
+    background-color: #dc3545;
 }
 
 .ultimoResultado.correto {
-background-color #28a745;
+    background-color: #28a745;
 }
 
 .botaoReiniciar {
@@ -91,5 +95,6 @@ background-color #28a745;
 }
 
 .botaoReiniciar:hover {
-background-color: #0056b3;
+    background-color: #0056b3;
 }
+
